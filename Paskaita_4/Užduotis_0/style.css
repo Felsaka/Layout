@@ -1,0 +1,51 @@
+header {
+    /* background-color: green; */
+    overflow: auto;
+    position: relative;
+}
+h1, h3 {
+    float: left;
+    /* background-color: red; */
+    margin: 0;
+    
+}
+
+main{
+    /* background-color: burlywood; */
+}
+
+nav{
+    /* background-color: yellow; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 20px;
+    margin: auto;
+}
+header nav ul {
+    margin: 0;
+}
+header nav ul li {
+    display: inline-block;
+}
+footer p {
+    text-align: center;
+}
+
+form {
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+    padding: 10px;
+    box-sizing: border-box;;
+}
+form h3{
+    width: 100%;
+}
+.friends{
+    width: 48%;
+}
+.full {
+    width: 98%;
+}

@@ -1,0 +1,17 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: blue;
+}
+/* tr:nth-child (even){
+    color:green;
+    background-color: yellow; */
+
+tr:nth-child (odd) {
+        color:green;
+        background-color: brown;
+}
+th{
+    background-color: blanchedalmond;
+}
